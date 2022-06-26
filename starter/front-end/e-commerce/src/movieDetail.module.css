@@ -1,0 +1,51 @@
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+/* 1.title最上面的是電影名稱
+2.左邊是圖片，圖片可以放小，網頁不需要scroll
+3.back to homePage是在整體資料下面
+ */
+
+.movieMainContent{
+ display: flex;
+ justify-content: center;
+}
+
+.moviePic{
+ width:30%;
+ padding:20px;
+ height:400px;
+}
+.movieInfo{
+ width:50%;
+ padding:20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.adultOrChild{
+ width:100px;
+}
+.movieInfo>*:not(button){
+ padding-bottom: 7px;
+}
+.homePage{
+ text-align: center;
+}
+
+.centerLink{
+ text-align: center;
+ position: relative;
+ margin-bottom: 10px;
+}
+
+
+.votes{
+ background-color: red;
+ box-shadow: 1px 1px 1px black;
+ padding: 3px;
+}
+

@@ -1,0 +1,17 @@
+1. 可以以名字的形式顯示出來
+2. 可以sort by everything 
+3. 價格
+4. e-commerce 和searcch function combine together 
+
+movie API 
+先把sort function給弄出來先
+之後再看看front end 應該怎麽寫
+就是sort這裏要怎麽寫呢
+
+
+
+
+backend 
+npm install
+npm start
+要make sure 是auto save的
