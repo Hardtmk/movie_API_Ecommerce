@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.movieForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  /* background-color: yellow; */
+}
+.searchAndimg {
+  /* background-color: blue; */
+  width: 80%;
+  display: flex;
+}
+
+.filterIcon {
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px black;
+}
+.filterIcon:hover {
+  transform: scale(1.1);
+}
+.filterIcon:active {
+  box-shadow: 1px 1px black;
+}
+/* 
+1.首先得要先定義寬度
+2.圖片要放小
+3.圖片外層要有框框,而且還要帶點 圓形，hover的時候會自動放大
+4.電影的名稱要縮減
+5.rating and price 要放小
+6.一行顯示四個電影
+7.Add into這裏要變成一個方框
+8.上行和下行之間要隔開
+9.button 要text-align
+10.rating 要用框框顯示出來
+11.價錢要用價錢符號
+12.nav要設每個都一樣
+13.可以稍微地弄一下footer,顯示一些社交媒體icon,可是是沒有作用的
+詳情可以看看CSS關於車展的footer
+然後再弄一個copy right 
+https: //hkmovie6.com/
+14.
+*/
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h5 {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movieContent {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.priceVote {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+  width: 100%;
+  padding-top: 5px;
+}
+.quantity {
+  background-color: red;
+}
+.vote {
+  background-color: red;
+  box-shadow: 1px 1px 1px black;
+  padding: 3px;
+}
+.price {
+  padding: 3px;
+  border: 1px solid black;
+}
+.date {
+  font-size: 0.5rem;
+}

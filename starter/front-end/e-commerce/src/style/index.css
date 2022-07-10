@@ -11,19 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-h2{
+h2 {
   text-align: center;
   font-size: 5px;
 }
 
-.adultBtn{
-  color:red;
- 
+.adultBtn {
+  color: red;
 }
-.childBtn{
-  color:green;
+.childBtn {
+  color: green;
 }
-.searchNoResult{
+.searchNoResult {
   font-size: 3rem;
   text-align: center;
   color: red;
