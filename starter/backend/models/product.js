@@ -1,40 +1,36 @@
-
-
-const mongoose = require('mongoose')
-
+const mongoose = require("mongoose");
+console.log("hi");
 
 const productSchema = new mongoose.Schema({
   title: {
     type: String,
-   
   },
-  overview:{
-   type:String
+  overview: {
+    type: String,
   },
   price: {
     type: Number,
   },
 
- poster_path: {
+  poster_path: {
     type: String,
   },
-backdrop_path: {
+  backdrop_path: {
     data: Buffer,
-  contentType: String
+    contentType: String,
   },
- release_date: {
-    type: Date
+  release_date: {
+    type: Date,
   },
   vote_average: {
-    type: Number
+    type: Number,
   },
   adult: {
-    type: Boolean
+    type: Boolean,
   },
   original_language: {
     type: String,
   },
-})
+});
 
-module.exports = mongoose.model('Product', productSchema)
-
+module.exports = mongoose.model("Product", productSchema);
